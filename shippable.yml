@@ -3,6 +3,7 @@ ruby:
   - 2.0.0
 services:
   - elasticsearch
+build_image: drydock/u12rubpls:tip
 env:
   global:
     - ELASTICSEARCH_HOST=localhost
